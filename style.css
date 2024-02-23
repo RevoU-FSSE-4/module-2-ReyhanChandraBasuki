@@ -1,0 +1,131 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sticky-header {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; 
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.nav-list li {
+    margin-right: 10px;
+}
+#home > ul >li {
+    list-style-type: square;
+}
+.hamburger {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#about {
+    padding: 100px;
+    font-size: 20px;
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width:200%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+header h1{
+    animation-duration: 4s;
+    animation-name: slidein;
+    text-shadow: 4px 4px pink;
+}
+#home h2 {
+    background-image: url(Assets/France\ Panoramic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+#France-landmark .grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 125px;
+    grid-auto-rows:200px 200px 200px;
+    margin: 10px;
+}
+#France-landmark .grid-container >div{
+width: 25%;
+}
+#France-landmark .grid-container img {
+    width: 300%;
+    height: 100%;
+    margin-left: 10px;
+}
+#France-landmark .text-landmark {
+    font-size: 16px;
+}
+#item-1 {
+    grid-row: 1/ span 2;
+}
+#item-2 {
+    grid-column: 2/ span 3;
+}
+#item-3 {
+    grid-column: 3/ span 3;
+}
+#France-video .text-video{
+    padding: 10px;
+    font-size: 25px;
+}
+#France-video .flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+#form-section {
+    background-color: navajowhite;
+    text-align: center;
+}
+.France-item {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.France-item:hover{
+    filter: none;
+    transition-property: filter;
+    transition-duration: 3s;
+
+}
+@media only screen and (max-width: 760px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        top:50px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-list li {
+        margin: 10px;
+    }
+    
+}

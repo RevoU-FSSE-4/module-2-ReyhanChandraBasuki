@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-vSzXkEt)
+# What I Build in Week 1 Assignment
+
+In this week 1 assignment, I created a website that describes how beautiful a place is, namely France. In this website, I included landmarks that are well known by various people in the world, then also introduced several landmarks in France. There are also videos that explain other landmarks in France. then to record data on visitors to the website, we also add a form that can be filled in by site visitors and get data on how many people are interested in knowing the beauty of France.
+
+## Below is a display of the week 1 web assignment that I made
+
+![myphotolocal](Assets/Tampilan%20web.png)
+
+### URL of Website
+
+You can access the website at:https://allaboutfrance.netlify.app/

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About France</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia&display=swap">
+</head>
+<body>
+    <style>
+        body {
+            font-family: "sofia",sans-serif;
+        }
+    </style>
+    <header class="sticky-header">
+        <div class="container">
+            <h1>Beautiful Tourist Attractions in France</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#France-landmark">Landmark</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+<main class="container">
+    <section id="home">
+        <h2 style="color: white;">A Photo About France</h2>
+        <p>Some interesting facts about France:</p>
+        <ul>
+            <li>French Gastronomy is Recognised as a UNESCO Cultural Heritage</li>
+            <li>In France you can eat a different cheese every single day</li>
+            <li>Croissants were acctualy invented in Austria</li>
+            <li>The France railway is the second largest in Europe</li>
+        </ul>
+    </section>
+    <section id="France-landmark">
+        <h3>Several French Landmarks</h3>
+     <div class="grid-container">
+            <div class="France-item" id="item-1">
+            <picture>
+                <source media="(min-width:650px)" srcset="Assets/Landmark1.jpeg">
+                <source media="(min-width:480px)" srcset="Assets/Landmark1.jpeg">
+                <img src="Assets/Landmark1.jpeg" alt="Arc de triomphe de I`Etoile">
+                <h4 class="text-landmark">Arc de triomphe de I`Etoile</h4>
+            </picture>
+            
+            </div>
+            <div class="France-item" id="item-2">
+            <picture>
+                <source media="(min-width:650px)" srcset="Assets/Landmark2.jpeg">
+                <source media="(min-width:480px)" srcset="Assets/Landmark2.jpeg">
+                <img src="Assets/Landmark2.jpeg" alt="Louvre Museum">
+                <h4 class="text-landmark">Louvre Museum</h4>
+            </picture>
+            </div>
+            <div class="France-item" id="item-3">
+                <picture>
+                    <source media="(min-width:650px)" srcset="Assets/Landmark3.jpg">
+                    <source media="(min-width:480px)" srcset="Assets/Landmark3.jpg">
+                    <img src="Assets/Landmark3.jpg" alt="Mont-saint-Michel Abbey">
+                    <h4 class="text-landmark">Mont-saint-Michel Abbey</h4>
+                </picture>
+            </div>
+            <div class="France-item" id="item-4">
+                <picture>
+                    <source media="(min-width:650px)" srcset="Assets/Landmark4.jpg">
+                    <source media="(min-width:480px)" srcset="Assets/Landmark4.jpg">
+                    <img src="Assets/Landmark4.jpg" alt="Loire Valley Castle">
+                    <h4 class="text-landmark">Loire Valley Castle</h4>
+                </picture>
+            </div>
+            <div class="France-item" id="item-5">
+                <picture>
+                    <source media="(min-width:650px)" srcset="Assets/Landmark5.jpeg">
+                    <source media="(min-width:480px)" srcset="Assets/Landmark5.jpeg">
+                    <img src="Assets/Landmark5.jpeg" alt="Eiffel Tower">
+                    <h4 class="text-landmark">Eiffel Tower</h4>
+                </picture>
+                
+            </div>
+     </div>
+     <section id="about">
+        <h3>About Us</h3>
+        <p>We created this website to introduce citizens in various countries that France not only has a famous landmark, namely the Eiffel Tower, but also many other landmarks which also have historical value and beauty. So, foreign residents who visit Paris for the purpose of taking photos as memories can look at our website to get references to good places to take selfies.</p>
+     </section>
+    </section>
+     <section id="France-video">
+        <h3 class="text-video">Video about how beautiful France is</h3>
+        <div class="flex-container">
+            <iframe
+            width="50%"
+            height="300"
+            src="https://www.youtube.com/embed/Jtl1KuorKog?si=PG-BmWlI_mClqsuz" 
+            title="Youtube Video Player"
+            frameborder="1px"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picgture"
+            display="block"
+            allowfullscreen>
+        </iframe> 
+        </div>
+     </section>
+     <section id="form-section">
+        <h3>Join Fansclub of France</h3>
+        <form action="#">
+            <fieldset>
+                <legend>Personal Data</legend>
+                <div>
+                    <label for="FullName">FullName</label>
+                    <input id="FullName" type="text" required/>
+                </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <input id="Email" type="text" required/>
+                </div>
+                <div>
+                    <label for="dob">Date Of Birth</label>
+                    <input
+                    type="date"
+                    name="trip-start"
+                    value="2000-10-20"/>
+                </div>
+                <div>
+                    <p>Are you living in France?</p>
+                    <input type="radio" id="YES" name="isfrance" value="Male"/>
+                    <label for="YES">YES</label>
+                    <input type="radio" id="NO" name="isfrance" value="Female">
+                    <label for="NO">NO</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div>
+                    <p>What do you think about France?</p>
+                    <input id="Beautiful"
+                    type="checkbox"
+                    name="place"
+                    value="Beautiful"
+                    >
+                    <label for="Beautiful">Beautiful</label>
+                    <input id="Romantic"
+                    type="checkbox"
+                    name="place"
+                    value="Romantic"
+                    >
+                    <label for="Romantic">Romantic</label>
+                    <input id="Relaxing"
+                    type="checkbox"
+                    name="place"
+                    value="Relaxing"
+                    >
+                    <label for="Relaxing">Relaxing</label>
+                </div>
+                <div>
+                    <p>Tell us Why you like France</p>
+                    <textarea id="France-Review" name="France-Review" rows="5" cols="50"></textarea>
+                </div>
+                <div>
+                    <p>Upload The most Beautiful photo you have about France here:</p>
+                    <input
+                    type="file"
+                    id="photo"
+                    name="MostBeautifulPhotoaboutFrance"
+                    required
+                    accept="image/jpeg; image/png">
+                </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    
+     </section>
+        
+    </section>
+</main>
+
+
+</body>
+</html>

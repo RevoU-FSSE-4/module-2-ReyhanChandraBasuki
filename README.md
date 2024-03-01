@@ -19,7 +19,8 @@ You can access the website at:https://allaboutfrance.netlify.app/
   ![myphotolocal](Foto/3.png)
 - Select add new site and choose import an existing project
   ![myphotolocal](Foto/4.png)
-- I choose a deploy with github because my project https://github.com/RevoU-FSSE-4/module-2-ReyhanChandraBasuki/settingstra
+- I choose a deploy with github because my project at github repositories
+  ![myphotolocal](Foto/5.png)
 - After clicking i will see a few repositories i have on github, after that i choose what repositories i want to deploy my project at module-2
   ![myphotolocal](Foto/6.png)
   ![myphotolocal](Foto/7.png)
